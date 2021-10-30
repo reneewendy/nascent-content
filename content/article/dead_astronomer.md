@@ -1,5 +1,6 @@
 title: Dead Astronomer
 slug: dead_astronomer
-date: January 1, 1900
+date: January 1, 1901
 
-Once there was a dead astronomer.
+Nothing to see here as the dead astronomer imploded.
+
