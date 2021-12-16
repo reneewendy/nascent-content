@@ -9,4 +9,4 @@ This repo contains infrastructure for a Pelican test website:
     - [https://jinja2docs.readthedocs.io/en/stable/]
 - linked repo contains the nginx configuration file
 
-![NGINX](https://www.nginx.com/wp-content/uploads/2020/06/NGINX-Logo-White-Endorsement-RGB.svg)
+![NGINX](https://media-exp1.licdn.com/dms/image/C4E0BAQFVNia9avQ6aQ/company-logo_100_100/0/1570661875266?e=1647475200&v=beta&t=rrWSR14vAy4qmIVQ5jxDunmcps9pORw00rJliW7Ic9A)
