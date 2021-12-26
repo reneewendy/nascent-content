@@ -31,11 +31,9 @@ help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
-	@echo '   make html                           (re)generate test web site          '
-	@echo '   make live                           (re)generate live web site          '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make clean                          do not use, removing dir=output    '
-	@echo '   make clean                          ...will cause a fatal flaw         '
+	@echo '   make html                           (re)generate test web site         '
+	@echo '   make live                           (re)generate live web site         '
+	@echo '   make clean                          disabled: do not use               '
 	@echo '   make regenerate                     regenerate files upon modification '
 	@echo '   make regenerate                     do not use... for greg's setup     '
 	@echo '   make publish                        generate using production settings '
@@ -51,9 +49,10 @@ help:
 
 html:
 	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
-
+ 
 clean:
-	[ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)"
+	@echo ' do not use, removing dir=output will cause a fatal flaw '
+	@echo ' [ ! -d "$(OUTPUTDIR)" ] || rm -rf "$(OUTPUTDIR)" '
 
 regenerate:
 	"$(PELICAN)" -r "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)

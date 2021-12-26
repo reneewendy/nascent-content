@@ -2,9 +2,12 @@ AUTHOR = 'WendyRenee'
 SITENAME = 'Markymark'
 SITEURL = ''
 
+# page path: static content. article paths: generated content.
 PATH = 'content'
 PAGE_PATHS = ['page']
-ARTICLE_PATHS = ['article']
+ARTICLE_PATHS = ['article', 'darwin', 'stupid']
+# PATH subdirectory content is also included.
+# TODO: Add path to articles' html
 
 TIMEZONE = 'America/Los_Angeles'
 
@@ -18,10 +21,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Darwin Awards', 'https://darwinawards.com/darwin/'),
+         ('Honorable Mentions', 'https://darwinawards.com/stupid/'),
+         ('Rules', 'https://darwinawards.com/rules/'),
+         ('Slush', 'https://darwinawards.com/slush/new'),)
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),

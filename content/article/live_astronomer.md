@@ -1,4 +1,4 @@
-title: Live Astronomer
+title: LIVE Astronomer
 slug: live_astronomer
 date: February 2, 1902
 
