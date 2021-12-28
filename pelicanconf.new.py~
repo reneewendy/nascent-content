@@ -1,7 +1,8 @@
 AUTHOR = 'Wendy Northcutt'
-SITENAME = 'Neo Darwin'
+SITENAME = 'TEST Darwin'
 SITEURL = ''
 
+# PATH subdirectory 'content' is included.
 PATH = 'content'
 PAGE_PATHS = ['page']     # static content.
 ARTICLE_PATHS = ['article', 'darwin', 'stupid', 'rules']     # generated content.
@@ -18,17 +19,17 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
+# LINKS = None
 LINKS = (('Darwin Awards', 'https://darwinawards.com/darwin/'),
          ('Honorable Mentions', 'https://darwinawards.com/stupid/'),
          ('Rules', 'https://darwinawards.com/rules/'),
          ('Slush', 'https://darwinawards.com/slush/new'),)
 
 # Social widget
+# SOCIAL = False
 SOCIAL = (('Facebook Darwin', 'https://www.facebook.com/TheDarwinAwards'),
           ('Twitter Darwin', 'https://twitter.com/DarwinAwards'),
           ('Homepage Darwin', 'https://darwinawards.com'),)
-
-THEME_TEMPLATES_OVERRIDES = ['themes/notmyidea/templates']  # works for base.html override
 
 DEFAULT_PAGINATION = False
 
