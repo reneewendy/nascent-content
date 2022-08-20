@@ -1,11 +1,8 @@
 /*
-	Name: Smashing HTML5
-	Date: July 2009
-	Description: Sample layout for HTML5 and CSS3 goodness.
-	Version: 1.0
-	License: MIT <https://opensource.org/licenses/MIT>
-	Licensed by: Smashing Media GmbH <https://www.smashingmagazine.com/>
-	Original author: Enrique Ramírez <http://enrique-ramirez.com/>
+Description: Sample layout for HTML5 and CSS3 goodness.
+License: MIT <https://opensource.org/licenses/MIT>
+Licensed by: Smashing Media GmbH <https://www.smashingmagazine.com/>
+Original author: Enrique Ramírez <http://enrique-ramirez.com/>
 */
 
 /* Imports */
@@ -17,7 +14,7 @@
 /***** Global *****/
 /* Body */
 body {
-    background: #F5F4EF;
+    background: #c4e4da;
     color: #000305;
     font-size: 87.5%; /* Base font size: 14px */
     font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

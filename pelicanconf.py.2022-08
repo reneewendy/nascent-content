@@ -1,9 +1,9 @@
-AUTHOR = 'Wendy Darwin Northcutt'
-SITENAME = 'Reboot The Darwin Awards'
+AUTHOR = 'Wendy Northcutt'
+SITENAME = 'Neo Darwin'
 SITEURL = ''
 
 PATH = 'content'
-gPAGE_PATHS = ['page']     # static content.
+PAGE_PATHS = ['page']     # static content.
 ARTICLE_PATHS = ['article', 'darwin', 'stupid', 'rules']     # generated content.
 
 TIMEZONE = 'America/Los_Angeles'
