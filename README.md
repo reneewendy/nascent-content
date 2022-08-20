@@ -1,5 +1,5 @@
 # Pelican Website Infrastrucure
-Cancel changes
+
 ## Development of Jinja theme
 
 ### notmyidea
