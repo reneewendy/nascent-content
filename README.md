@@ -1,11 +1,20 @@
-# Pelican Test Website Infrastrucure
+# Pelican Website Infrastrucure
 
-This repo contains infrastructure for a Pelican test website:
+## Development of Jinja theme
 
-- a small webserver based on `aiohttp` displays content 
+### notmyidea
+
+Infrastructure for a static website is in progress. 
+
+- Demo on a webserver based on `aiohttp` 
     - [https://test.markymark.bx9.net/]
 - features in development: 
-    - The templates are 'jinja2' ... i think ... 
+    -  understanding the templates 
+    -  modifying the theme
+        -  PUZZLE: Why is the css used on the live site not in the content dir?
+        -  Add images for main & thumbnail.
+        -  Need two live dates: Date created, and date event happened.
+        -  CSS/layout overhaul for mobile-first.
     - [https://jinja2docs.readthedocs.io/en/stable/]
 - linked repo contains the nginx configuration file
 
