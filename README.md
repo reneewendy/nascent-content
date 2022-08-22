@@ -8,7 +8,7 @@ A beloved website from the dawn of the Internet is moving into the modern era!! 
 - Edit drafts to adapt to Jinja & Markdown
 
 A lot was already accomplished with shell tools. The remaining work needs a human eye.  Article text must be at the bottom, with two blank lines above it.  Also each file needs miscellaneous clean-up and judgement calls, merging duplicates (e.g. authors) or deleting duplicates (e.g. titles). In particular, eyeball the image tags. Contact Wendy for guidance!
-    - (Markdown Cheat Sheet)[https://www.markdownguide.org/cheat-sheet/]
+    - [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet/)
         
 ## Jinja Templating Engine
 
@@ -22,7 +22,7 @@ A lot was already accomplished with shell tools. The remaining work needs a huma
 - CSS/layout overhaul focused on mobile-first & and social media cards metadata
 
 ## Resources 
-- [https://jinja2docs.readthedocs.io/en/stable/]
+- https://jinja2docs.readthedocs.io/en/stable/
 - linked repo contains the nginx configuration file
 
 ! NGINX
