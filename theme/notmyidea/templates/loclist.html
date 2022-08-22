@@ -1,0 +1,2 @@
+{% if article.locs %}<p>locs: {% for loc in article.locs %}<a href="{{ SITEURL }}/{{ loc.url }}">{{ .loc | escape }}</a> {% endfor %}</p>
+{% endif %}

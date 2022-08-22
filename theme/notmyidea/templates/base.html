@@ -29,6 +29,7 @@
 
 <body id="index" class="home">
   {% include 'github.html' %}
+  <!-- works: % include 'wgithub.html' % -->
   <header id="banner" class="body">
     <h1><a href="{{ SITEURL }}/">{{ SITENAME }}{% if SITESUBTITLE %} <strong>{{ SITESUBTITLE }}</strong>{% endif %}</a></h1>
     <nav><ul>
@@ -83,10 +84,10 @@
   
   <footer id="contentinfo" class="body">
     <address id="about" class="vcard body">
-      Proudly powered by a <a href="https://getpelican.com/">Pelican</a> taking advantage of a <a href="https://www.python.org/">Python</a>.
+      Proudly powered by <a href="https://getpelican.com/">Pelican</a> and <a href="https://www.python.org/">Python</a>.
     </address><!-- /#about -->
     
-    <p>Theme by Wendy Darwin Northcutt based on <a href="https://www.smashingmagazine.com/">notmyidea by smashingmagazine</a></p>
+    <p>Theme by Wendy Northcutt based on <a href="https://www.smashingmagazine.com/">notmyidea</a></p>
   </footer><!-- /#contentinfo -->
   
   {% include 'analytics.html' %}

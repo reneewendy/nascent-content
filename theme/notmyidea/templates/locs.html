@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}{{ SITENAME }} - Locs{% endblock %}
+
+{% block content %}
+
+<section id="content" class="body">
+    <h1>Locs for {{ SITENAME }}</h1>
+    <ul>
+    {% for loc, articles in locs|sort %}
+        <li><a href="{{ SITEURL }}/{{ loc.url }}">{{ loc }}</a> ({{ articles|count }})</li>
+    {% endfor %}
+    </ul>
+</section>
+
+{% endblock %}

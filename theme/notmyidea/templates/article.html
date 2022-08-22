@@ -24,11 +24,11 @@
       <h2 class="entry-title">
         <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
            title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
-      {% include 'twitter.html' %}
+      {% include 'twitter.html' %} include twitter?
     </header>
 
     <div class="entry-content">
-      {% include 'article_infos.html' %}
+      {% include 'article_infos.html' %} include article_infos?
       {{ article.content }}
     </div><!-- /.entry-content -->
     {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}

@@ -17,7 +17,9 @@
                 {% endfor %}
         </address>
         {% endif %}
-<p>In <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
+<p>Type <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>.</p>
+<!-- Wendy FAILED TO CREATE A LOCATION LIST IDENTICAL TO TAGS LIST-->
+<strong>HERE_tags</strong><br>
 {% include 'taglist.html' %}
 {% import 'translations.html' as translations with context %}
 {{ translations.translations_for(article) }}

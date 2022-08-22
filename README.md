@@ -4,6 +4,8 @@
 
 ### notmyidea
 
+Hints: <details> tag creates a drop-down (HTML5)
+
 Infrastructure for a static website is in progress. 
 
 - Demo on a webserver based on `aiohttp` 
