@@ -1,33 +1,28 @@
 # Darwin Reboot: Pelican Website Content
+
+A beloved website from the dawn of the Internet is moving into the modern era!!  We are using the Pelican framework, the power of Python, the convenience of Jinja templating system, and git to welcome contributors.
+- Demo [https://markymark.bx9.net/]
+
+## Your Help Requested : 
+    - 482 drafts are in the queue!
+    - Edit articles to adapt to Jinja/Markdown
+
+A lot was already accomplished with shell tools. The remaining work needs a human eye.  Article text must be at the bottom, with two blank lines above it.  Also each file needs miscellaneous clean-up and judgement calls, merging duplicates (e.g. authors) or deleting duplicates (e.g. titles). In particular, eyeball the image tags. Contact Wendy for guidance!
+    - (Markdown Cheat Sheet)[https://www.markdownguide.org/cheat-sheet/]
+        
 ## Jinja Templating Engine
-### modified 'notmyidea' theme
 
-A beloved website from the dawn of the Internet is in progress!! This REPO has the content&mdash;the archive stories.
+    
+# todo
 
-- Demo [https://test.markymark.bx9.net/]
-- features in development: 
-    - adapt old HTML to Markdown/Jinja markdown
-    - understand the Jinja template system
-    - modify the theme
-
-<<<<<<< HEAD
-Hints: <details> tag creates a drop-down (HTML5)
-
-Infrastructure for a static website is in progress. 
-=======
-## Conundrums
--  Where is the css used on the live site?
->>>>>>> bdc5d0f791cf276977e28bc004c2fd94213e2880
-
-## todo
+- Understand Jinja template system
+- modify the theme
+    - Date created vs. date event happened: use tags 'date: ' and 'modified: '?
 - Crowdsource conversion of *.html to *.md
-- Add images: main, thumbnail.
-- Add a date? Date created, and date event happened. Likely this already exists, in 'date' and 'modified'
-
--  CSS/layout overhaul focused on mobile-first.
+- CSS/layout overhaul focused on mobile-first & and social media cards metadata
 
 ## Resources 
 - [https://jinja2docs.readthedocs.io/en/stable/]
 - linked repo contains the nginx configuration file
 
-![NGINX](https://media-exp1.licdn.com/dms/image/C4E0BAQFVNia9avQ6aQ/company-logo_100_100/0/1570661875266?e=1647475200&v=beta&t=rrWSR14vAy4qmIVQ5jxDunmcps9pORw00rJliW7Ic9A)
+![NGINX]
