@@ -1,4 +1,4 @@
-# Darwin Reboot: Pelican Website Content
+# Darwin Reboot: Pelican Website
 
 A beloved website from the dawn of the Internet is moving into the modern era!!  We are using the Pelican framework, the power of Python, the convenience of Jinja templating system, and git to welcome contributors.
 - Demo [https://markymark.bx9.net/]
