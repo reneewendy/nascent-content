@@ -4,8 +4,8 @@ A beloved website from the dawn of the Internet is moving into the modern era!! 
 - [Demo: https://markymark.bx9.net/](https://markymark.bx9.net/)
 
 ## Your Help Requested : 
-    - [482 drafts are in the queue!](https://github.com/reneewendy/nascent-content/tree/main/content/drafts)
-    - Edit articles to adapt to Jinja/Markdown
+- [482 drafts are in the queue!](https://github.com/reneewendy/nascent-content/tree/main/content/drafts)
+- Edit drafts to adapt to Jinja & Markdown
 
 A lot was already accomplished with shell tools. The remaining work needs a human eye.  Article text must be at the bottom, with two blank lines above it.  Also each file needs miscellaneous clean-up and judgement calls, merging duplicates (e.g. authors) or deleting duplicates (e.g. titles). In particular, eyeball the image tags. Contact Wendy for guidance!
     - (Markdown Cheat Sheet)[https://www.markdownguide.org/cheat-sheet/]
